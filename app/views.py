@@ -4,5 +4,5 @@ from django.shortcuts import render
 def built_in_filter(request):
     import datetime
     dt=datetime.datetime.now()
-    d={'data':'haI POOji How are yOU','dt':dt}
+    d={'data':'haI POOji How are yOU','dt':dt,'c':3}
     return render(request,'built_in_filter.html',d)
